@@ -42,7 +42,7 @@ docker build -t ${scaffold.name} .
 - Python
 - PostgreSQL
 
-## ️ Architecture
+## Architecture
 
 ```
 mlops-pipeline-scaffold/
@@ -84,7 +84,6 @@ pytest tests/unit
 - Metrics collection
 - Error tracking
 - Performance monitoring
-
 
 ## Deployment
 
@@ -129,6 +128,5 @@ MIT - Built by Augustus Rivers at Offlabel Design
 ---
 
 **Maturity:** stable | **Complexity:** advanced | **Last Updated:** 2025-01-03
-
 
 ** CLI Available:** `npx @offlabel/${scaffold.name}`
