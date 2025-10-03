@@ -1,0 +1,37 @@
+{
+  "name": "mlops-pipeline-scaffold",
+  "description": "MLOps pipeline with data versioning, experiment tracking, and automated retraining",
+  "tech": [
+    "MLflow",
+    "Airflow",
+    "DVC",
+    "Python",
+    "PostgreSQL"
+  ],
+  "categories": [
+    "ai-ml",
+    "devops",
+    "data"
+  ],
+  "usecases": [
+    "ai-ml",
+    "enterprise"
+  ],
+  "maturity": "stable",
+  "complexity": "advanced",
+  "features": [
+    "mlops",
+    "data-versioning",
+    "experiment-tracking",
+    "retraining",
+    "docker",
+    "kubernetes"
+  ],
+  "hasDemo": false,
+  "hasCLI": true,
+  "securityFeatures": [
+    "access-control",
+    "audit-logging"
+  ],
+  "lastUpdated": "2025-01-03"
+}
