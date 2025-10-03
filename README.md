@@ -2,16 +2,16 @@
 
 MLOps pipeline with data versioning, experiment tracking, and automated retraining
 
-## 🎯 Features
+## The Good Stuff
 
-- ✅ Mlops
-- ✅ Data Versioning
-- ✅ Experiment Tracking
-- ✅ Retraining
-- ✅ Docker
-- ✅ Kubernetes
+- Mlops
+- Data Versioning
+- Experiment Tracking
+- Retraining
+- Docker
+- Kubernetes
 
-## 🚀 Quick Start
+## Setup
 
 ```bash
 # Clone the repository
@@ -34,7 +34,7 @@ pytest
 docker build -t ${scaffold.name} .
 ```
 
-## 📦 Tech Stack
+## Built With
 
 - MLflow
 - Airflow
@@ -42,30 +42,30 @@ docker build -t ${scaffold.name} .
 - Python
 - PostgreSQL
 
-## 🏗️ Architecture
+## ️ Architecture
 
 ```
 mlops-pipeline-scaffold/
-├── src/                    # Source code
-│   ├── core/              # Core functionality
-│   ├── utils/             # Utilities
-│   └── config/            # Configuration
-├── tests/                  # Test files
-│   ├── unit/              # Unit tests
-│   └── integration/       # Integration tests
-├── docs/                   # Documentation
-├── .github/workflows/      # CI/CD pipelines
+├── src/ # Source code
+│ ├── core/ # Core functionality
+│ ├── utils/ # Utilities
+│ └── config/ # Configuration
+├── tests/ # Test files
+│ ├── unit/ # Unit tests
+│ └── integration/ # Integration tests
+├── docs/ # Documentation
+├── .github/workflows/ # CI/CD pipelines
 ├── Dockerfile
 ├── docker-compose.yml
 └── README.md
 ```
 
-## 🔒 Security Features
+## Security Features
 
-- ✅ Access Control
-- ✅ Audit Logging
+- Access Control
+- Audit Logging
 
-## 🧪 Testing
+## Testing
 
 ```bash
 # Run all tests
@@ -78,7 +78,7 @@ pytest --cov
 pytest tests/unit
 ```
 
-## 📊 Monitoring & Observability
+## Monitoring & Observability
 
 - Structured logging
 - Metrics collection
@@ -86,7 +86,7 @@ pytest tests/unit
 - Performance monitoring
 
 
-## 🚢 Deployment
+## Deployment
 
 ### Docker
 ```bash
@@ -104,7 +104,7 @@ kubectl apply -f k8s/
 docker-compose up -d
 ```
 
-## 📚 Documentation
+## Documentation
 
 - [Getting Started](./docs/getting-started.md)
 - [Configuration](./docs/configuration.md)
@@ -112,15 +112,15 @@ docker-compose up -d
 - [Deployment Guide](./docs/deployment.md)
 - [Security Best Practices](./docs/security.md)
 
-## 🤝 Contributing
+## Contributing
 
 Contributions welcome! Please read our [Contributing Guide](CONTRIBUTING.md).
 
-## 📄 License
+## License
 
 MIT - Built by Augustus Rivers at Offlabel Design
 
-## 💬 Support
+## Support
 
 - **Email:** hello@offlabel.design
 - **GitHub:** https://github.com/offlabel-scaffolds/mlops-pipeline-scaffold
@@ -131,4 +131,4 @@ MIT - Built by Augustus Rivers at Offlabel Design
 **Maturity:** stable | **Complexity:** advanced | **Last Updated:** 2025-01-03
 
 
-**⚡ CLI Available:** `npx @offlabel/${scaffold.name}`
+** CLI Available:** `npx @offlabel/${scaffold.name}`
